@@ -1,5 +1,7 @@
 # SICP Exercise 1.2
 
+## Solution
+
 ```lisp
 (/ (+ 5
       4

@@ -1,6 +1,6 @@
 # SICP Exercise 1.1
 
-Expression & Result
+## Exercises & Solutions
 
 ```lisp
 10

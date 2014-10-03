@@ -1,6 +1,9 @@
 # SICP Exercise 1.3
 
+## Exercise
 Define a procedure that takes three numbers as arguments and returns the sum of the squares f the two larger numbers.
+
+## Solution
 
 ```lisp
 (define (square x)
