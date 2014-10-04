@@ -21,4 +21,4 @@ What behavior will Ben observe with an interpreter that uses applicative-order e
 
 ## Solution
 
-For an interpreter that uses applicative-order evaluation, Ben's test will never end because (p) keeps evaluating over and over again. In normal-order evaluation, the evaluation will execute one step at a time (resulting in 0).
+For an interpreter that uses applicative-order evaluation, Ben's test will never end because (p) keeps evaluating - infinite recursion. In normal-order evaluation, the evaluation will execute one step at a time (resulting in 0).
