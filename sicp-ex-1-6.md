@@ -33,4 +33,8 @@ What happens when Alyssa attempts to use this to computer square roots? Explain.
 
 ## Solution
 
-...
+Alyssa's program will fail because it exceeds the interpreter's maximum recursion depth.
+
+The new-if version uses applicative evaluation (meaning the operands are always evaluted), whereas 'if' uses normal order evaluaton (predicates evaluate before operands). So the predicate decides which operand gets evaluated.
+
+;In new-if sqrt-iter is called recursively despite good-enough being evaluated to true because the operands are being evaluated.
